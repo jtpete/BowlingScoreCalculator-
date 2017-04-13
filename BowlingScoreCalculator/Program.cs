@@ -10,6 +10,8 @@ namespace BowlingScoreCalculator
     {
         static void Main(string[] args)
         {
+            ProcessScores myScores = new ProcessScores();
+            myScores.ProcessTheseScores();
         }
     }
 }

@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace BowlingScoreCalculator
 {
-    class Score
+    public class Score
     {
+        private int id;
+        public int Id { get { return id; } set { id = value; } }
+        private string frameScores;
+        public string FrameScores { get { return frameScores; } set { frameScores = value; } }
+        private int totalScore;
+        public int TotalScore { get { return totalScore; } set { totalScore = value; } }
     }
 }
